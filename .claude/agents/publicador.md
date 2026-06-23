@@ -12,7 +12,7 @@ Si es false: responde "Publicación cancelada. El revisor rechazó: [lista de pi
 
 ## Lo que programas en Metricool
 
-Posts de `output/linkedin-[fecha].md`:
+Posts de `output/instagram-[fecha].md`:
 - Post 1: próximo martes a las 9:00
 - Post 2: próximo jueves a las 9:00
 - Post 3: próximo sábado a las 10:00
