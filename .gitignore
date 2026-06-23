@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Audio y outputs (contenido personal)
+audio/
+output/
+
+# macOS
+.DS_Store
+
+# Archivos comprimidos de referencia
+*.zip
+
+# Analytics locales
+analytics/
