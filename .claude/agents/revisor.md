@@ -32,9 +32,9 @@ Para cada pieza:
       "puntuacion": 8,
       "notas": ""
     },
-    "linkedin_1": { "aprobado": true, "puntuacion": 9, "notas": "" },
-    "linkedin_2": { "aprobado": false, "puntuacion": 5, "notas": "Segunda frase demasiado larga." },
-    "linkedin_3": { "aprobado": true, "puntuacion": 7, "notas": "" }
+    "instagram_1": { "aprobado": true, "puntuacion": 9, "notas": "" },
+    "instagram_2": { "aprobado": false, "puntuacion": 5, "notas": "Segunda frase demasiado larga." },
+    "instagram_3": { "aprobado": true, "puntuacion": 7, "notas": "" }
   },
   "accion_recomendada": "publicar"
 }

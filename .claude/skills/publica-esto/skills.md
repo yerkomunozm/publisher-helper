@@ -1,5 +1,5 @@
 ---
-description: Orquesta el pipeline completo. Transcribe audio, genera newsletter y LinkedIn, revisa con brand voice y programa en Metricool. Invocar con /publica-esto <ruta-del-audio>
+description: Orquesta el pipeline completo. Transcribe audio, genera newsletter y captions de Instagram, revisa con brand voice y programa en Metricool. Invocar con /publica-esto <ruta-del-audio>
 disable-model-invocation: true
 allowed-tools: Bash, Agent, Write, Read
 arguments: [audio]

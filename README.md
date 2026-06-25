@@ -1,8 +1,8 @@
 # publisher-helper
 
-Convierte notas de voz en contenido publicado en LinkedIn usando Claude Code.
+Convierte notas de voz en contenido publicado en Instagram usando Claude Code.
 
-**Flujo:** nota de voz → transcripción local → newsletter + 3 posts LinkedIn → revisión automática de marca → programación en Metricool
+**Flujo:** nota de voz → transcripción local → newsletter + 3 captions de Instagram → revisión automática de marca → programación en Metricool
 
 ---
 
@@ -52,7 +52,7 @@ mkdir audio output
 El comando `/publica-esto` orquesta cuatro agentes en secuencia:
 
 1. **Transcripción** — `tools/transcribe.py` convierte el audio a texto localmente con faster-whisper (modelo `large-v3`, sin API key).
-2. **Redactor** — genera una newsletter y 3 posts de LinkedIn (ángulos conceptual, práctico y personal) respetando `brand_voice.md`.
+2. **Redactor** — genera una newsletter y 3 captions de Instagram (ángulos conceptual, práctico y personal) respetando `brand_voice.md`.
 3. **Revisor** — evalúa cada pieza contra la voz de marca y devuelve un JSON de aprobación. Si alguna pieza falla, el pipeline para.
 4. **Publicador** — programa los 3 posts en Metricool (martes, jueves y sábado a las 9:00). La newsletter queda en `output/` para publicación manual.
 
@@ -60,7 +60,7 @@ El comando `/publica-esto` orquesta cuatro agentes en secuencia:
 output/
 ├── transcripcion-YYYY-MM-DD-{nombre}.txt
 ├── newsletter-YYYY-MM-DD.md        ← publicar manualmente
-├── linkedin-YYYY-MM-DD.md          ← programado en Metricool
+├── instagram-YYYY-MM-DD.md         ← programado en Metricool
 └── carrusel-estructura-YYYY-MM-DD.md
 ```
 

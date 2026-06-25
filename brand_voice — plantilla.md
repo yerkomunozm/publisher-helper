@@ -24,12 +24,12 @@ Ejemplo de reglas:
 ## Ejemplos de mi voz — lo más importante de este archivo
 
 Pon aquí 3-5 fragmentos reales de tus mejores textos publicados.
-Cuanto más variados, mejor: newsletter, LinkedIn, cierre, gancho.
+Cuanto más variados, mejor: newsletter, Instagram, cierre, gancho.
 Claude aprende imitando ejemplos, no leyendo descripciones.
 
 <examples>
 <example>
-[Fragmento real tuyo — newsletter, post, guion]
+[Fragmento real tuyo — newsletter, caption, guion]
 </example>
 
 <example>
@@ -43,17 +43,18 @@ Claude aprende imitando ejemplos, no leyendo descripciones.
 
 ## Reglas por canal
 
-### LinkedIn
-- Longitud: [número de palabras o líneas]
-- Estructura: [cómo organizas tus posts — ej. "hook → desarrollo → CTA"]
+### Instagram
+- Longitud de caption: [rango de palabras o caracteres — recuerda que solo se ven ~125 caracteres antes del "más"]
+- Estructura: [cómo organizas tus captions — ej. "gancho → desarrollo → CTA → hashtags"]
 - Emojis: [cuáles, dónde, cuántos — o "ninguno"]
-- Hashtags: [cuántos, dónde van — o "ninguno"]
-- Lo que nunca hago en LinkedIn: [máximo 2 cosas concretas]
+- Hashtags: [cuántos, dónde van, separados del cuerpo o integrados — o "ninguno"]
+- Link en bio: [cómo lo usas para dirigir al CTA]
+- Lo que nunca hago en Instagram: [máximo 2 cosas concretas]
 
 ### Newsletter
 - Longitud: [rango de palabras]
 - Estructura: [cómo organizas tus newsletters]
-- Tono vs. LinkedIn: [en qué se diferencia]
+- Tono vs. Instagram: [en qué se diferencia]
 - Lo que nunca hago en newsletter: [máximo 2 cosas concretas]
 
 ## Cómo proceso el input del audio
